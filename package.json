@@ -1,0 +1,54 @@
+{
+  "name": "manage-wifi-cli",
+  "version": "0.0.0",
+  "description": "Turn your Wi-Fi on and off",
+  "license": "MIT",
+  "repository": "sindresorhus/manage-wifi-cli",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bin": {
+    "wifi": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "wifi",
+    "wi-fi",
+    "internet",
+    "wireless",
+    "manage",
+    "control",
+    "network",
+    "device",
+    "adapter",
+    "en0",
+    "en1",
+    "restart",
+    "toggle",
+    "enable",
+    "disable",
+    "on",
+    "off"
+  ],
+  "dependencies": {
+    "manage-wifi": "^0.1.0",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.6.0",
+    "xo": "*"
+  }
+}
