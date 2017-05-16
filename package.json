@@ -1,6 +1,6 @@
 {
   "name": "manage-wifi-cli",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Turn your Wi-Fi on and off",
   "license": "MIT",
   "repository": "sindresorhus/manage-wifi-cli",
