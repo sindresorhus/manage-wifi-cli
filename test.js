@@ -1,8 +1,8 @@
 import test from 'ava';
 import execa from 'execa';
 
-if (process.env.CI) { // Travis doesn't have Wi-Fi
-	test('travis', t => {
+if (process.env.CI) { // CI doesn't have Wi-Fi
+	test('ci', t => {
 		t.pass();
 	});
 } else {
