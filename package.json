@@ -1,6 +1,6 @@
 {
   "name": "manage-wifi-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Turn your Wi-Fi on and off",
   "license": "MIT",
   "repository": "sindresorhus/manage-wifi-cli",
@@ -43,7 +43,7 @@
     "off"
   ],
   "dependencies": {
-    "manage-wifi": "^1.0.0",
+    "manage-wifi": "^2.1.0",
     "meow": "^3.7.0"
   },
   "devDependencies": {
