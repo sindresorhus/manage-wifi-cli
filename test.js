@@ -8,8 +8,13 @@ if (process.env.CI) { // CI doesn't have Wi-Fi
 } else {
 	test('main', async t => {
 		await execa('./cli.js', ['off']);
-		t.is(await execa.stdout('./cli.js', ['status']), 'off');
+
+		const {stdout: status} = await execa('./cli.js', ['status']);
+		t.is(status, 'off');
+
 		await execa('./cli.js', ['on']);
-		t.is(await execa.stdout('./cli.js', ['status']), 'on');
+
+		const {stdout: status2} = await execa('./cli.js', ['status']);
+		t.is(status2, 'on');
 	});
 }

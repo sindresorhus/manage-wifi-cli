@@ -2,15 +2,13 @@
 
 > Turn your Wi-Fi on and off
 
-*macOS only, but pull request welcome for Linux and Windows support.*
-
+*macOS and Windows only, but pull request welcome for Linux support.*
 
 ## Install
 
 ```
 $ npm install --global manage-wifi-cli
 ```
-
 
 ## Usage
 
@@ -36,12 +34,6 @@ $ wifi --help
     en0
 ```
 
-
 ## Related
 
 - [manage-wifi](https://github.com/sindresorhus/manage-wifi) - API for this module
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
